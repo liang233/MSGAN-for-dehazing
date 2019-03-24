@@ -3,5 +3,5 @@ solutions for ntire2019 dehazing
 requirememts: python3 pytorch>=0.4.1  
 51,52,53 pictures:  
 python test1.py  
-54,55   
+54,55 pictures:    
 python test2.py  
