@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--network', default='GCANet')
 parser.add_argument('--task', default='dehaze', help='dehaze | derain')
 parser.add_argument('--gpu_id', type=int, default=0)
-parser.add_argument('--indir', default='valahazy/test1')
+parser.add_argument('--indir', default='valahazy/test1/')
 parser.add_argument('--outdir', default='output/')
 opt = parser.parse_args()
 assert opt.task in ['dehaze', 'derain']
